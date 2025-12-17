@@ -1,8 +1,9 @@
 <?php
-namespace Mstudio\NewsAutoTeaserBundle;
+
+namespace Mstudio\ContaoNewsAutoTeaser;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class MstudioNewsAutoTeaserBundle extends Bundle
+class MstudioContaoNewsAutoTeaser extends Bundle
 {
 }

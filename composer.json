@@ -1,10 +1,9 @@
 {
     "name": "mstudio-dev/contao-news-auto-teaser",
     "description": "Kürzt News-Teaser automatisch und erstellt ein Content-Element.",
-    "type": "contao-bundle",
     "version": "1.0.0",
+    "type": "contao-bundle",
     "license": "MIT",
-    "keywords": ["contao", "contao-bundle", "php", "symfony"],
     "authors": [
         {
             "name": "Markus Schnagl"
@@ -12,14 +11,14 @@
     ],
     "require": {
         "php": "^8.1",
-        "contao/core-bundle": "^5.0"
+        "contao/core-bundle": "^5.3"
     },
     "autoload": {
         "psr-4": {
-            "Mstudio\\NewsAutoTeaserBundle\\": "src/"
+            "Mstudio\\ContaoNewsAutoTeaser\\": "src/"
         }
     },
     "extra": {
-        "contao-manager-plugin": "Mstudio\\NewsAutoTeaserBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Mstudio\\ContaoNewsAutoTeaser\\ContaoManager\\Plugin"
     }
 }

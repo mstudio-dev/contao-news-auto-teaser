@@ -1,18 +1,19 @@
 <?php
-namespace Mstudio\NewsAutoTeaserBundle\ContaoManager;
+
+namespace Mstudio\ContaoNewsAutoTeaser\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Mstudio\NewsAutoTeaserBundle\MstudioNewsAutoTeaserBundle;
+use Mstudio\ContaoNewsAutoTeaser\MstudioContaoNewsAutoTeaser;
 
 class Plugin implements BundlePluginInterface
 {
     public function getBundles(ParserInterface $parser): array
     {
         return [
-            BundleConfig::create(MstudioNewsAutoTeaserBundle::class)
+            BundleConfig::create(MstudioContaoNewsAutoTeaser::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
