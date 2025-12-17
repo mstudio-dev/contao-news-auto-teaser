@@ -1,5 +1,5 @@
 {
-    "name": "mstudio/news-auto-teaser-bundle",
+    "name": "mstudio-dev/contao-news-auto-teaser",
     "description": "Kürzt News-Teaser automatisch und erstellt ein Content-Element.",
     "type": "contao-bundle",
     "version": "1.0.0",
